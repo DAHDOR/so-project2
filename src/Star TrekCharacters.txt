@@ -1,0 +1,192 @@
+James T. Kirk
+HP: 95
+Strength: 75
+Agility: 85
+Abilities: Liderazgo, Combate cuerpo a cuerpo
+
+Spock
+HP: 90
+Strength: 80
+Agility: 80
+Abilities: Lógica avanzada, Nerv pinch
+
+Leonard McCoy (Bones)
+HP: 85
+Strength: 65
+Agility: 70
+Abilities: Medicina avanzada, Diplomacia
+
+Montgomery Scott (Scotty)
+HP: 80
+Strength: 70
+Agility: 65
+Abilities: Ingeniería avanzada, Reparaciones de emergencia
+
+Nyota Uhura
+HP: 85
+Strength: 65
+Agility: 75
+Abilities: Comunicación, Inteligencia táctica
+
+Hikaru Sulu
+HP: 90
+Strength: 75
+Agility: 80
+Abilities: Pilotaje experto, Espada samurái
+
+Pavel Chekov
+HP: 80
+Strength: 70
+Agility: 75
+Abilities: Navegación, Estrategia militar
+
+Jean-Luc Picard
+HP: 95
+Strength: 70
+Agility: 75
+Abilities: Liderazgo, Diplomacia interestelar
+
+William Riker
+HP: 100
+Strength: 80
+Agility: 85
+Abilities: Combate cuerpo a cuerpo, Tácticas militares
+
+Data
+HP: 120
+Strength: 100
+Agility: 90
+Abilities: Procesamiento avanzado, Fuerza sobrehumana
+
+Geordi La Forge
+HP: 90
+Strength: 75
+Agility: 80
+Abilities: Ingeniería avanzada, Visión infrarroja
+
+Worf
+HP: 110
+Strength: 90
+Agility: 80
+Abilities: Combate klingon, Estrategia militar
+
+Deanna Troi
+HP: 85
+Strength: 65
+Agility: 75
+Abilities: Empatía telepática, Diplomacia
+
+Beverly Crusher
+HP: 90
+Strength: 65
+Agility: 70
+Abilities: Medicina avanzada, Investigación científica
+
+Q
+HP: 150
+Strength: 120
+Agility: 100
+Abilities: Control del espacio-tiempo, Manipulación cuántica
+
+Seven of Nine
+HP: 100
+Strength: 85
+Agility: 90
+Abilities: Tecnología borg, Adaptabilidad
+
+Kathryn Janeway
+HP: 95
+Strength: 70
+Agility: 75
+Abilities: Liderazgo, Tácticas interestelares
+
+Chakotay
+HP: 90
+Strength: 80
+Agility: 85
+Abilities: Espiritualidad, Combate táctico
+
+The Doctor (Holograma Médico de Emergencia)
+HP: 80
+Strength: 65
+Agility: 60
+Abilities: Medicina holográfica, Base de datos médica infinita
+
+Tuvok
+HP: 90
+Strength: 80
+Agility: 85
+Abilities: Lógica avanzada, Nerv pinch
+
+Tom Paris
+HP: 85
+Strength: 70
+Agility: 80
+Abilities: Pilotaje avanzado, Exploración estelar
+
+B'Elanna Torres
+HP: 95
+Strength: 85
+Agility: 75
+Abilities: Ingeniería avanzada, Fuerza klingon
+
+Neelix
+HP: 80
+Strength: 60
+Agility: 70
+Abilities: Diplomacia, Cocinero estelar
+
+Hoshi Sato
+HP: 85
+Strength: 65
+Agility: 75
+Abilities: Lingüística avanzada, Decodificación
+
+Travis Mayweather
+HP: 90
+Strength: 75
+Agility: 80
+Abilities: Pilotaje, Estrategia táctica
+
+Phlox
+HP: 85
+Strength: 65
+Agility: 70
+Abilities: Medicina alienígena, Resiliencia
+
+Jonathan Archer
+HP: 95
+Strength: 80
+Agility: 85
+Abilities: Liderazgo, Diplomacia
+
+T'Pol
+HP: 90
+Strength: 80
+Agility: 85
+Abilities: Control lógico, Nerv pinch
+
+Hugh (Borg)
+HP: 120
+Strength: 100
+Agility: 70
+Abilities: Adaptación borg, Conexión en red
+
+Sarek
+HP: 90
+Strength: 70
+Agility: 80
+Abilities: Diplomacia vulcana, Nerv pinch
+
+Lwaxana Troi
+HP: 85
+Strength: 60
+Agility: 65
+Abilities: Telepatía betazoide, Persuasión
+
+Borg Queen
+HP: 150
+Strength: 120
+Agility: 100
+Abilities: Control colectivo, Regeneración avanzada
+-----
