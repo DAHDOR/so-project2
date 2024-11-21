@@ -1,0 +1,192 @@
+Luke Skywalker
+HP: 100
+Strength: 85
+Agility: 90
+Abilities: Sable de luz, Control de la fuerza
+
+Darth Vader
+HP: 110
+Strength: 95
+Agility: 70
+Abilities: Asfixia de la fuerza, Combate avanzado
+
+Leia Organa
+HP: 90
+Strength: 70
+Agility: 85
+Abilities: Liderazgo, Diplomacia
+
+Han Solo
+HP: 95
+Strength: 75
+Agility: 80
+Abilities: Disparo certero, Estrategia improvisada
+
+Chewbacca
+HP: 120
+Strength: 100
+Agility: 60
+Abilities: Fuerza bruta, Reparación mecánica
+
+Yoda
+HP: 80
+Strength: 65
+Agility: 120
+Abilities: Control de la fuerza, Combate acrobático
+
+Palpatine
+HP: 100
+Strength: 75
+Agility: 50
+Abilities: Relámpagos de la fuerza, Manipulación política
+
+Obi-Wan Kenobi
+HP: 100
+Strength: 80
+Agility: 85
+Abilities: Combate con sable, Control mental
+
+Rey
+HP: 90
+Strength: 70
+Agility: 90
+Abilities: Control de la fuerza, Sable doble
+
+Kylo Ren
+HP: 95
+Strength: 80
+Agility: 85
+Abilities: Sable de luz cruzado, Control de emociones
+
+Finn
+HP: 90
+Strength: 75
+Agility: 80
+Abilities: Disparo certero, Combate improvisado
+
+Poe Dameron
+HP: 85
+Strength: 65
+Agility: 90
+Abilities: Piloto experto, Estrategia aérea
+
+Mace Windu
+HP: 100
+Strength: 90
+Agility: 85
+Abilities: Dominio de sable púrpura, Control avanzado
+
+Qui-Gon Jinn
+HP: 95
+Strength: 80
+Agility: 75
+Abilities: Sable de luz, Filosofía Jedi
+
+R2-D2
+HP: 60
+Strength: 50
+Agility: 50
+Abilities: Hackeo, Reparaciones
+
+C-3PO
+HP: 50
+Strength: 40
+Agility: 30
+Abilities: Protocolo, Traducción
+
+Boba Fett
+HP: 100
+Strength: 85
+Agility: 80
+Abilities: Caza recompensas, Jetpack
+
+Jango Fett
+HP: 100
+Strength: 85
+Agility: 75
+Abilities: Combate táctico, Jetpack
+
+General Grievous
+HP: 120
+Strength: 95
+Agility: 60
+Abilities: Sables múltiples, Resistencia
+
+Padme Amidala
+HP: 90
+Strength: 65
+Agility: 70
+Abilities: Diplomacia, Liderazgo
+
+Lando Calrissian
+HP: 85
+Strength: 70
+Agility: 80
+Abilities: Manipulación, Estrategia comercial
+
+Jabba the Hutt
+HP: 150
+Strength: 60
+Agility: 20
+Abilities: Control del crimen, Persuasión
+
+Wedge Antilles
+HP: 85
+Strength: 65
+Agility: 85
+Abilities: Piloto experto, Estrategia de combate aéreo
+
+Admiral Ackbar
+HP: 95
+Strength: 70
+Agility: 50
+Abilities: Estrategia naval, Liderazgo
+
+Darth Maul
+HP: 110
+Strength: 90
+Agility: 85
+Abilities: Sable doble, Combate avanzado
+
+Count Dooku
+HP: 100
+Strength: 85
+Agility: 70
+Abilities: Sable de luz curvo, Relámpagos de la fuerza
+
+Ahsoka Tano
+HP: 95
+Strength: 75
+Agility: 90
+Abilities: Sables dobles, Combate acrobático
+
+Ezra Bridger
+HP: 85
+Strength: 70
+Agility: 85
+Abilities: Control animal, Sable de luz
+
+Sabine Wren
+HP: 90
+Strength: 75
+Agility: 80
+Abilities: Explosivos, Pintura de combate
+
+Hera Syndulla
+HP: 85
+Strength: 65
+Agility: 90
+Abilities: Piloto experto, Liderazgo
+
+Chopper
+HP: 70
+Strength: 50
+Agility: 60
+Abilities: Hackeo, Defensa improvisada
+
+The Mandalorian
+HP: 110
+Strength: 85
+Agility: 75
+Abilities: Caza recompensas, Beskar Armor
+-----
