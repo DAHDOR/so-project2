@@ -429,3 +429,440 @@ public class Proyecto2GUI extends javax.swing.JFrame {
         prioridad3C2.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
         prioridad3C2.setForeground(new java.awt.Color(255, 255, 255));
         prioridad3C2.setText("--- Refuerzo: ");
+
+        javax.swing.GroupLayout drive3Layout = new javax.swing.GroupLayout(drive3);
+        drive3.setLayout(drive3Layout);
+        drive3Layout.setHorizontalGroup(
+            drive3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, drive3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(127, 127, 127))
+            .addGroup(drive3Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addGroup(drive3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(prioridad3C)
+                    .addComponent(prioridad2C)
+                    .addComponent(prioridad1C)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(prioridad3C2))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        drive3Layout.setVerticalGroup(
+            drive3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(drive3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel3)
+                .addGap(11, 11, 11)
+                .addComponent(prioridad1C)
+                .addGap(3, 3, 3)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad2C)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad3C)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad3C2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+
+        jLabel50.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel50.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel50.setText("Star Wars");
+
+        jLabel51.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        jLabel51.setText("Inteligencia Artificial");
+
+        IAPanel.setBackground(new java.awt.Color(0, 0, 0));
+        IAPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        statusText.setForeground(new java.awt.Color(255, 255, 255));
+        statusText.setText("Estatus: ");
+
+        plusVelocity.setBackground(new java.awt.Color(153, 255, 153));
+        plusVelocity.setText("+");
+        plusVelocity.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                plusVelocityActionPerformed(evt);
+            }
+        });
+
+        velocityText.setForeground(new java.awt.Color(255, 255, 255));
+        velocityText.setText("Velocidad Actual: 1");
+
+        minusText.setBackground(new java.awt.Color(153, 255, 153));
+        minusText.setText("-");
+        minusText.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                minusTextActionPerformed(evt);
+            }
+        });
+
+        start.setBackground(new java.awt.Color(153, 255, 153));
+        start.setText("Comenzar Simulación");
+        start.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                startActionPerformed(evt);
+            }
+        });
+
+        start1.setBackground(new java.awt.Color(153, 255, 153));
+        start1.setText("Mostrar Ganadores");
+        start1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                start1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout IAPanelLayout = new javax.swing.GroupLayout(IAPanel);
+        IAPanel.setLayout(IAPanelLayout);
+        IAPanelLayout.setHorizontalGroup(
+            IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(IAPanelLayout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addGroup(IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(statusText)
+                    .addGroup(IAPanelLayout.createSequentialGroup()
+                        .addComponent(velocityText)
+                        .addGap(29, 29, 29)
+                        .addComponent(minusText)
+                        .addGap(18, 18, 18)
+                        .addComponent(plusVelocity)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(start1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(start, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(31, 31, 31))
+        );
+        IAPanelLayout.setVerticalGroup(
+            IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(IAPanelLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addGroup(IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(statusText)
+                    .addComponent(start, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(IAPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(velocityText)
+                    .addComponent(minusText)
+                    .addComponent(plusVelocity)
+                    .addComponent(start1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(27, Short.MAX_VALUE))
+        );
+
+        drive4.setBackground(new java.awt.Color(0, 0, 0));
+        drive4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Colas");
+
+        prioridad1C1.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        prioridad1C1.setForeground(new java.awt.Color(255, 255, 255));
+        prioridad1C1.setText("--- Prioridad 1: ");
+
+        prioridad2C1.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        prioridad2C1.setForeground(new java.awt.Color(255, 255, 255));
+        prioridad2C1.setText("--- Prioridad 2: ");
+
+        prioridad3C1.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        prioridad3C1.setForeground(new java.awt.Color(255, 255, 255));
+        prioridad3C1.setText("--- Prioridad 3: ");
+
+        p1Area2.setEditable(false);
+        p1Area2.setColumns(20);
+        p1Area2.setLineWrap(true);
+        p1Area2.setRows(5);
+        jScrollPane5.setViewportView(p1Area2);
+
+        p2Area2.setEditable(false);
+        p2Area2.setColumns(20);
+        p2Area2.setLineWrap(true);
+        p2Area2.setRows(5);
+        jScrollPane6.setViewportView(p2Area2);
+
+        p3Area2.setEditable(false);
+        p3Area2.setColumns(20);
+        p3Area2.setLineWrap(true);
+        p3Area2.setRows(5);
+        jScrollPane7.setViewportView(p3Area2);
+
+        prioridad3C3.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        prioridad3C3.setForeground(new java.awt.Color(255, 255, 255));
+        prioridad3C3.setText("--- Refuerzo: ");
+
+        refArea2.setEditable(false);
+        refArea2.setColumns(20);
+        refArea2.setLineWrap(true);
+        refArea2.setRows(5);
+        jScrollPane9.setViewportView(refArea2);
+
+        javax.swing.GroupLayout drive4Layout = new javax.swing.GroupLayout(drive4);
+        drive4.setLayout(drive4Layout);
+        drive4Layout.setHorizontalGroup(
+            drive4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, drive4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(127, 127, 127))
+            .addGroup(drive4Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addGroup(drive4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(prioridad3C1)
+                    .addComponent(prioridad2C1)
+                    .addComponent(prioridad1C1)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(prioridad3C3)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+        drive4Layout.setVerticalGroup(
+            drive4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(drive4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4)
+                .addGap(11, 11, 11)
+                .addComponent(prioridad1C1)
+                .addGap(3, 3, 3)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad2C1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad3C1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(prioridad3C3, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(21, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addComponent(drive3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(136, 136, 136)
+                        .addComponent(jLabel50)))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(drive4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(122, 122, 122)
+                        .addComponent(capcomText)))
+                .addGap(0, 92, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(309, 309, 309)
+                        .addComponent(arenaText))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(36, 36, 36)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(IAPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(arenaPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(227, 227, 227)
+                        .addComponent(jLabel51)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addComponent(jLabel50))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(capcomText)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(drive3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(drive4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(arenaText)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(arenaPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel51)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(IAPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(109, Short.MAX_VALUE))
+        );
+
+        jScrollPane3.setViewportView(jPanel1);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 671, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 958, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void minusTextActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_minusTextActionPerformed
+        if (cpu.velocity > 1) {
+            int newVelocity = cpu.velocity - 1;
+            cpu.setVelocity(newVelocity);
+            velocityText.setText("Velocidad Actual: " + newVelocity);
+        }
+    }// GEN-LAST:event_minusTextActionPerformed
+
+    private void plusVelocityActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_plusVelocityActionPerformed
+        int newVelocity = cpu.velocity + 1;
+        cpu.setVelocity(newVelocity);
+        velocityText.setText("Velocidad Actual: " + newVelocity);
+    }// GEN-LAST:event_plusVelocityActionPerformed
+
+    private void startActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_startActionPerformed
+        // TODO add your handling code here:
+        admin.start();
+        cpu.start();
+    }// GEN-LAST:event_startActionPerformed
+
+    private void start1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_start1ActionPerformed
+        // TODO add your handling code here:
+        ganadores.pack();
+        ganadores.setVisible(true);
+    }// GEN-LAST:event_start1ActionPerformed
+
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        // <editor-fold defaultstate="collapsed" desc=" Look and feel setting code
+        // (optional) ">
+        /*
+         * If Nimbus (introduced in Java SE 6) is not available, stay with the default
+         * look and feel.
+         * For details see
+         * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Proyecto2GUI.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Proyecto2GUI.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Proyecto2GUI.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Proyecto2GUI.class.getName()).log(java.util.logging.Level.SEVERE, null,
+                    ex);
+        }
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+        // </editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Proyecto2GUI().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel IAPanel;
+    private javax.swing.JPanel arenaPanel;
+    private javax.swing.JLabel arenaText;
+    private javax.swing.JTextArea capcomArena;
+    private javax.swing.JLabel capcomGamesWon;
+    private javax.swing.JLabel capcomText;
+    private javax.swing.JPanel drive3;
+    private javax.swing.JPanel drive4;
+    private javax.swing.JFileChooser fileChooser;
+    private javax.swing.JDialog ganadores;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JButton minusText;
+    private javax.swing.JTextArea nintendoArena;
+    private javax.swing.JLabel nintendoGamesWon;
+    private javax.swing.JTextArea p1Area;
+    private javax.swing.JTextArea p1Area2;
+    private javax.swing.JTextArea p2Area;
+    private javax.swing.JTextArea p2Area2;
+    private javax.swing.JTextArea p3Area;
+    private javax.swing.JTextArea p3Area2;
+    private javax.swing.JButton plusVelocity;
+    private javax.swing.JLabel prioridad1C;
+    private javax.swing.JLabel prioridad1C1;
+    private javax.swing.JLabel prioridad2C;
+    private javax.swing.JLabel prioridad2C1;
+    private javax.swing.JLabel prioridad3C;
+    private javax.swing.JLabel prioridad3C1;
+    private javax.swing.JLabel prioridad3C2;
+    private javax.swing.JLabel prioridad3C3;
+    private javax.swing.JTextArea refArea1;
+    private javax.swing.JTextArea refArea2;
+    private javax.swing.JLabel resultText;
+    private javax.swing.JTextArea s1Winners;
+    private javax.swing.JTextArea s2Winners;
+    private javax.swing.JButton start;
+    private javax.swing.JButton start1;
+    private javax.swing.JLabel statusText;
+    private javax.swing.JLabel velocityText;
+    private javax.swing.JLabel vsText;
+    // End of variables declaration//GEN-END:variables
+}
